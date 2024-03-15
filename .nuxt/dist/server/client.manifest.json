@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/shinya/Desktop/nuxt-supabase/node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/shinya/Desktop/nuxt-supabase/node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/entry.js"
+  }
+}
