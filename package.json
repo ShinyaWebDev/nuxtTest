@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@mdi/font": "^7.4.47",
-    "@pinia/nuxt": "^0.5.1",
+        "@pinia/nuxt": "^0.5.1",
         "@tiptap/extension-placeholder": "^2.2.4",
         "@tiptap/pm": "^2.2.4",
         "@tiptap/starter-kit": "^2.2.4",
@@ -23,8 +23,9 @@
         "vue-draggable-next": "^2.2.1",
         "vue-router": "^4.2.5",
         "vuetify": "^3.4.0-beta.1"
-  },
-  "devDependencies": {
-    "@pinia-plugin-persistedstate/nuxt": "^1.2.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/supabase": "^1.1.7",
+        "@pinia-plugin-persistedstate/nuxt": "^1.2.0"
     }
 }

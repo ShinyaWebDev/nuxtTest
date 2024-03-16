@@ -1,2 +1,9 @@
+.output
+.env
+dist
+
 node_modules
-node_modules
+
+# .netlify
+# Local Netlify folder
+.netlify

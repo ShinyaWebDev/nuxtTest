@@ -136,6 +136,8 @@ declare global {
   const useServerSeoMeta: typeof import('../../node_modules/.pnpm/@unhead+vue@1.8.18_vue@3.4.21/node_modules/@unhead/vue')['useServerSeoMeta']
   const useSlots: typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['useSlots']
   const useState: typeof import('../../node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/composables/state')['useState']
+  const useSupabaseClient: typeof import('../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseClient')['useSupabaseClient']
+  const useSupabaseUser: typeof import('../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseUser')['useSupabaseUser']
   const useTransitionState: typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['useTransitionState']
   const watch: typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['watch']
   const watchEffect: typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['watchEffect']
@@ -293,6 +295,8 @@ declare module 'vue' {
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/.pnpm/@unhead+vue@1.8.18_vue@3.4.21/node_modules/@unhead/vue')['useServerSeoMeta']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/composables/state')['useState']>
+    readonly useSupabaseClient: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseClient')['useSupabaseClient']>
+    readonly useSupabaseUser: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseUser')['useSupabaseUser']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['useTransitionState']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['watchEffect']>
@@ -443,6 +447,8 @@ declare module '@vue/runtime-core' {
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/.pnpm/@unhead+vue@1.8.18_vue@3.4.21/node_modules/@unhead/vue')['useServerSeoMeta']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/composables/state')['useState']>
+    readonly useSupabaseClient: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseClient')['useSupabaseClient']>
+    readonly useSupabaseUser: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseUser')['useSupabaseUser']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['useTransitionState']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.21/node_modules/vue')['watchEffect']>

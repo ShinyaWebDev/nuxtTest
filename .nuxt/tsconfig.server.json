@@ -53,6 +53,9 @@
       ],
       "pinia": [
         "../node_modules/.pnpm/pinia@2.1.7_vue@3.4.21/node_modules/pinia/dist/pinia"
+      ],
+      "#supabase/server": [
+        "../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/server/services/index"
       ]
     }
   },
@@ -60,6 +63,7 @@
     "./types/nitro-nuxt.d.ts",
     "../node_modules/.pnpm/@pinia+nuxt@0.5.1_vue@3.4.21/node_modules/@pinia/nuxt/runtime/server",
     "../node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/runtime/server",
     "../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.10.3_vite@5.1.6/node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",

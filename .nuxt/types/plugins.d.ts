@@ -17,6 +17,9 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/pages/runtime/plugins/check-if-page-unused").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.10.3_vite@5.1.6/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.server").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.10.3_vite@5.1.6/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client").default> &
+  InjectionType<typeof import("../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/plugins/auth-redirect").default> &
+  InjectionType<typeof import("../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/plugins/supabase.server").default> &
+  InjectionType<typeof import("../../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/plugins/supabase.client").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/plugins/chunk-reload.client").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.10.3_sass@1.72.0_vite@5.1.6/node_modules/nuxt/dist/app/plugins/check-if-layout-used").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/plugin").default> &
@@ -28,7 +31,7 @@ declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
 
   interface NuxtAppLiterals {
-    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt:revive-payload:server' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | 'nuxt:chunk-reload' | 'nuxt:checkIfLayoutUsed'
+    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'supabase' | 'supabase' | 'nuxt:revive-payload:server' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | 'auth-redirect' | 'nuxt:chunk-reload' | 'nuxt:checkIfLayoutUsed'
   }
 }
 

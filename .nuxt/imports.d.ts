@@ -27,6 +27,8 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { useJobApplicationEditor } from '../composables/useKeyRequirements';
 export { useResumeEditor } from '../composables/useResumeEditor';
+export { useSupabaseClient } from '../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseClient';
+export { useSupabaseUser } from '../node_modules/.pnpm/@nuxtjs+supabase@1.1.7/node_modules/@nuxtjs/supabase/dist/runtime/composables/useSupabaseUser';
 export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/.pnpm/@pinia+nuxt@0.5.1_vue@3.4.21/node_modules/@pinia/nuxt/dist/runtime/composables';
 export { persistedState } from '../node_modules/.pnpm/@pinia-plugin-persistedstate+nuxt@1.2.0_@pinia+nuxt@0.5.1_pinia@2.1.7/node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/storages';
 export { useNuxtDevTools } from '../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.10.3_vite@5.1.6/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
